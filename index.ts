@@ -12,7 +12,7 @@ const sleep = () => {
 };
 
 async function wellcome() {
-  let rainbow = chalkAnimation.rainbow("Hello world!");
+  let rainbow = chalkAnimation.rainbow("Hello woorld!");
   await sleep();
   rainbow.stop();
   console.log(` _____________________
